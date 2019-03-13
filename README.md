@@ -69,7 +69,7 @@ sudo make install
 ## Quelques pistes importantes avant de commencer (revenez les voir... vous en aurez besoin) :
 
 - Si vous devez capturer et injecter du trafic, il faudra configurer votre interface 802.11 en mode monitor.
-- Python a un mode interactif très utile pour le développement. Il suffit de l'invoquer avec la commande ```python```. Ensuite, vous pouvez importer Scapy, rc4 et autres et utiliser les commandes directement dans la console (voir script fourni pour plus d'information sur l'importation de modules). En fait, vous pouvez même exécuter tout le script fourni en mode interactif !
+- Python a un mode interactif très utile pour le développement. Il suffit de l'invoquer avec la commande ```python```. Ensuite, vous pouvez importer Scapy ou tout autre module nécessaire. En fait, vous pouvez même exécuter tout le script fourni en mode interactif !
 - Scapy fonctionne aussi en mode interactif en invoquant la commande ```scapy```.  
 - Dans le mode interactif, « nom de variable + <enter> » vous retourne le contenu de la variable.
 - Pour visualiser en détail une trame avec Scapy en mode interactif, on utilise la fonction ```show()```. Par exemple, si vous chargez votre trame dans une variable nommée ```arp```, vous pouvez visualiser tous ces champs et ses valeurs avec la commande ```arp.show()```. Utilisez cette commande pour connaître les champs disponibles et les formats de chaque champ.
